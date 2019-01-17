@@ -1,0 +1,7 @@
+.my-hover {
+    color: red;
+}
+
+.hover-demo {
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+input {
+  font-size: 30px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+text {
+  font-size: 30px;
+}

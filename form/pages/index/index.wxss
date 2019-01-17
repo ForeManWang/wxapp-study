@@ -1,0 +1,12 @@
+/**index.wxss**/
+.btn-active {
+  background-color: red;
+}
+
+.input1 {
+  border: 1px solid #c0c0c0;
+}
+
+.input-placeholder {
+  color: red;
+}

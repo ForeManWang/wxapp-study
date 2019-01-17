@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",
+    "pages/demo3/demo3",
+    "pages/demo4/deom4"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

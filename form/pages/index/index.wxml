@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- type是用来控制按钮的类型 只有三种：primary default warn -->
+  <!--<button type="warn">这是一个按钮</button>-->
+  <!--<button type="warn" size="mini" plain loading>这是一个按钮</button>  -->
+  <!--hover 指的是按下， hover-class指的就是按下过后的作用Class -->
+  <!--<button hover-class="btn-active">hover class</button>-->
+
+
+  <!--<checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group>-->
+
+
+  <input class="input1" placeholder="请输入啥" placeholder-class="input-placeholder"/>
+
+</view>

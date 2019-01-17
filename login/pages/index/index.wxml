@@ -1,0 +1,68 @@
+<!-- version 1 没有抽象事件处理函数 -->
+<!--<view class="container">
+  <view class="header">
+    <image src="../../images/sign.png" mode="aspectFit"/>
+  </view>
+  <view class="inputs">
+    <input class="username" placeholder="请输入用户名" value="{{ username }}" bindinput="usernameChangeHandle"/>
+    <input class="password" type="password" placeholder="请输入密码" value="{{ password }}" bindinput="passwordChangeHandle"/>
+  </view>
+  <view class="buttons">
+    <button type="primary" bindtap="loginHandle">登陆</button>
+    <button type="default">注册</button>
+  </view>
+</view>-->
+
+
+<!-- version 2 抽象公共的事件处理函数 -->
+<!--<view class="container">
+  <view class="header">
+    <image src="../../images/sign.png" mode="aspectFit"/>
+  </view>
+  <view class="inputs">
+    <input 
+      class="username" 
+      placeholder="请输入用户名" 
+      value="{{ username }}" 
+      bindinput="inputChangeHandle" 
+      data-prop="username"/>
+    <input 
+      class="password" 
+      type="password" 
+      placeholder="请输入密码" 
+      value="{{ password }}" 
+      bindinput="inputChangeHandle" 
+      data-prop="password"/>
+  </view>
+  <view class="buttons">
+    <button type="primary" bindtap="loginHandle">登陆</button>
+    <button type="default">注册</button>
+  </view>
+</view>-->
+
+
+<!-- version 3 表单实现的版本 -->
+<form bindsubmit="loginHandle">
+  <view class="container">
+    <view class="header">
+      <image src="../../images/sign.png" mode="aspectFit"/>
+    </view>
+    <view class="inputs">
+      <input 
+        class="username" 
+        name="username"
+        placeholder="请输入用户名" 
+        value="{{ username }}"/>
+      <input 
+        class="password" 
+        type="password" 
+        name="password"
+        placeholder="请输入密码" 
+        value="{{ password }}"/>
+    </view>
+    <view class="buttons">
+      <button type="primary" form-type="submit">登陆</button>
+      <button type="default">注册</button>
+    </view>
+  </view>
+</form>

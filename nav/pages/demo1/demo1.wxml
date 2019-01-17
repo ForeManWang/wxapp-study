@@ -1,0 +1,22 @@
+<navigator url="../demo2/demo2">go demo2 page</navigator>
+
+<navigator url="../demo2/demo2?name=小明&age=18">小明</navigator>
+
+<navigator url="../demo2/demo2?name=小红">小红</navigator>
+
+<!--
+    页面间参数传递
+        1. 传传 跳转链接上加问号参数
+        2. 接受 onload 的第一个参数（对象）
+-->
+
+<navigator url="../demo2/demo2" redirect>跳转过去（不回来了）</navigator>
+
+
+<navigator hover-class="my-hover">点我点我</navigator>
+<navigator hover-class="none">点我点我</navigator>
+
+<!-- cursor pointer 的方式是一个我们发现的小技巧，可以让任何元素点击时高亮 -->
+<image class="hover-demo" src="../../images/poster.jpg"></image>
+
+<button type="primary" bindtap="tapHandle">跳转过去</button>

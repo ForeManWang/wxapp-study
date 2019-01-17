@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <button bindtap='buttonTap' data-hello='事件传参'>点击我哦</button> -->
+  <!-- <view id="outer" style='width: 200px; height: 200px; background-color:red'  bindtap="handleTap1">
+    我是他爷爷
+    <view id="middle" style='width: 100px; height: 100px; background-color:yellow'  bindtap="handleTap2">
+      我是他爸爸
+      <view id="inner" style='width: 50px; height: 50px; background-color:blue'  bindtap="handleTap3">我是他儿子</view>
+    </view>
+  </view> -->
+  <!-- <view id="outer" style='width: 200px; height: 200px; background-color:red'  bind:tap="handleTap1" capture-bind:tap="handleTap2">
+    我是他爸爸
+    <view id="middle" style='width: 100px; height: 100px; background-color:yellow' bind:tap="handleTap3" capture-bind:tap="handleTap4"> 我是我自己</view>
+  </view> -->
+  <!-- <input value='{{ message }}' bindinput='inputHandle'></input>
+  <text>{{ message }}</text> -->
+  <!-- <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text> -->
+  <!-- <progress percent='20' show-info></progress> -->
+  <!-- <button type='warn' size='default'>这是一个红色按钮</button>
+  <button type='primary' size='mini'>这是一个小尺寸绿色按钮</button>
+  <button type='default'>这是一个白色按钮</button>
+  <button hover-class='btn-active'>hover-class</button> -->
+  <!-- <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" />
+    {{item.value}}
+  </label>
+</checkbox-group> -->
+<!-- <input class='input1' placeholder='请输入...' placeholder-class='input-placeholder'></input> -->
+<!-- <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" />
+    {{item.value}}
+  </label>
+</radio-group> -->
+<!-- <view class="section section_gap">
+  <text class="section__title">设置step</text>
+  <view class="body-view"><slider bindchange="slider2change" step="5" /></view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">显示当前value</text>
+  <view class="body-view">
+    <slider bindchange="slider3change" show-value />
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">设置最小/最大值</text>
+  <view class="body-view">
+    <slider bindchange="slider4change" min="50" max="200" show-value />
+  </view>
+</view> -->
+<button type='primary' bindtap='btnTodo'>你要点击我哦</button>
+</view>

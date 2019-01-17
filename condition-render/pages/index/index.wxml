@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="item">
+    <view class="title" bindtap="toggle">
+      <text>切换面板展示</text>
+    </view>
+    <!-- block 只是控制属性(wx:)的载体，页面渲染过程中没有实际意义 -->
+    <!--<block wx:if="{{ show }}">
+      <view class="content">
+        <text>
+          这里是内容。。。
+          这里是内容。。。
+          这里是内容。。。
+        </text>
+      </view>
+      <view class="content">
+        <text>
+          这里是内容。。。
+          这里是内容。。。
+          这里是内容。。。
+        </text>
+      </view>
+    </block>-->
+
+
+    <!-- hidden 标签任然会工作，只是不显示在界面上 -->
+    <view class="content" hidden="{{ !show }}">
+      <text>
+        这里是内容。。。
+        这里是内容。。。
+        这里是内容。。。
+      </text>
+    </view>
+    <!-- wx:if当条件为假的时候是不渲染（这个标签不工作） -->
+    <view class="content" wx:if="{{ show }}">
+      <text>
+        这里是内容。。。
+        这里是内容。。。
+        这里是内容。。。
+      </text>
+    </view>
+  </view>
+</view>

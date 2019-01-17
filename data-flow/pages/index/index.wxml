@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <input value="{{ message }}" bindinput="inputHandle"/>
+  <text>{{ message }}</text>
+</view>

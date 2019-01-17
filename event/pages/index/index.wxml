@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 基本的事件使用 就是通过给组件添加一个 "bind+事件名" 的属性，属性的值指向一个定义在当前页面对象中JS方法 -->
+  <!--<button bindtap="buttonTapHandle">点我</button>-->
+
+  <!-- 事件冒泡 -->
+  <!--<view bindtap="outterHandle" style="width:200px; height:200px; background-color: red">
+    <view catchtap="innerHandle" style="width:100px; height:100px; background-color: blue"></view>
+  </view>-->
+  <!-- catch+事件名 是阻止冒泡并且绑定事件 -->
+
+  <!-- 事件传参 -->
+  <button bindtap="tap2Handle" data-name="张三" data-age="13">点我</button>
+  <button bindtap="tap2Handle" data-hello-world="张三">点我</button>
+
+  <!--<input type="button" onclick="clickHandle(12)" data-id=""/>-->
+
+  <!--
+  1. 事件的基本使用  bind[xxx] catch[xxx]
+  2. 小程序中事件冒泡和和HTML中处理起来不一样  这里是使用catch[xxx]
+  3. 如果需要给事件处理函数指定参数只能通过dataset方式
+  -->
+</view>

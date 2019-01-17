@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <!--icon text progress-->
+  <!--success, success_no_circle, info, warn, waiting, cancel, download, search, clear-->
+  <!--type 用于定义图标类型，只能是规定范围的类型，除了这些内置图标，其他图标必须通过图片方式使用-->
+  <icon type="success_no_circle"></icon>
+  <!-- size 用于指定图标大小 默认是23 单位是px -->
+  <icon type="info" size="60"></icon>
+  <!-- color 用于指定图标颜色 取值就是CSS颜色取值 -->
+  <icon type="info" size="60" color="red"></icon>
+
+  <!--text类似于HTML中的p标签，但是p标签不能嵌套-->
+  <!--text主要是为了可以很好的控制页面上的内容-->
+  <!--text还支持换行-->
+  <text>这是一
+  段<text>文本</text>内容</text>
+
+  这是一段没有被text包裹的文本
+
+<!-- 显示一个进度条 -->
+<!-- show-info 是用来控制是否显示具体数值的的 -->
+  <progress percent="20" show-info />
+
+  <progress percent="50" active />
+</view>

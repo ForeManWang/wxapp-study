@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flex布局1</title>
+	<style type="text/css">
+		/*
+			使用 flex 流程
+				1.设计 DOM 结构
+				2.将父盒子设置为伸缩盒子  display: flex;
+				3.固定一边宽度，另一边设置flex: 1;就实现了
+		 */
+		html, body {
+			height: 100%;
+		}
+		.root {
+			/*padding-left: 100px;*/
+			display: flex;
+			border: 2px solid #c0c0c0;
+			height: 100%;
+		}
+		.sidebar {
+			width: 100px;
+			background-color: yellow;
+		}
+		.content {
+			/*width: 100%;*/
+			flex: 1;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="root">
+		<div class="sidebar">
+			
+		</div>
+		<div class="content">
+			
+		</div>
+	</div>
+</body>
+</html>
