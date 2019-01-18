@@ -48,27 +48,27 @@
       <view class="inner">
         <view class="item">
           <image src="../../images/poster.jpg"></image>
-          <text>一生中最爱的是谁谁？</text>
+          <text>男人哭吧哭吧不是罪</text>
         </view>
         <view class="item">
           <image src="../../images/poster.jpg"></image>
-          <text>一生中最爱的是谁谁？</text>
+          <text>男人哭吧哭吧不是罪</text>
         </view>
         <view class="item">
           <image src="../../images/poster.jpg"></image>
-          <text>一生中最爱的是谁谁？</text>
+          <text>男人哭吧哭吧不是罪</text>
         </view>
         <view class="item">
           <image src="../../images/poster.jpg"></image>
-          <text>一生中最爱的是谁谁？</text>
+          <text>男人哭吧哭吧不是罪</text>
         </view>
         <view class="item">
           <image src="../../images/poster.jpg"></image>
-          <text>一生中最爱的是谁谁？</text>
+          <text>男人哭吧哭吧不是罪</text>
         </view>
         <view class="item">
           <image src="../../images/poster.jpg"></image>
-          <text>一生中最爱的是谁谁？</text>
+          <text>男人哭吧哭吧不是罪</text>
         </view>
       </view>
     </view>
@@ -79,8 +79,8 @@
       <image src="../../images/poster.jpg"></image>
     </view>
     <view class="info">
-      <text class="title">一生中最爱</text>
-      <text class="artist">谭咏麟</text>
+      <text class="title">男人哭吧哭吧不是罪</text>
+      <text class="artist">刘德华</text>
     </view>
     <view class="controls">
       <image src="../../images/01.png"></image>
