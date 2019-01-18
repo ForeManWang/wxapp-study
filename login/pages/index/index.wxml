@@ -4,8 +4,8 @@
     <image src="../../images/sign.png" mode="aspectFit"/>
   </view>
   <view class="inputs">
-    <input class="username" placeholder="请输入用户名" value="{{ username }}" bindinput="usernameChangeHandle"/>
-    <input class="password" type="password" placeholder="请输入密码" value="{{ password }}" bindinput="passwordChangeHandle"/>
+    <input class="username" placeholder="在此输入用户名" value="{{ username }}" bindinput="usernameChangeHandle"/>
+    <input class="password" type="password" placeholder="在此输入密码" value="{{ password }}" bindinput="passwordChangeHandle"/>
   </view>
   <view class="buttons">
     <button type="primary" bindtap="loginHandle">登陆</button>
