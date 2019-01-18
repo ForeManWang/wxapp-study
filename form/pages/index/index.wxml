@@ -14,6 +14,6 @@
   </checkbox-group>-->
 
 
-  <input class="input1" placeholder="请输入啥" placeholder-class="input-placeholder"/>
+  <input class="input1" placeholder="在此输入一些内容" placeholder-class="input-placeholder"/>
 
 </view>
