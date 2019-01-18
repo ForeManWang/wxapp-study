@@ -10,7 +10,7 @@ Page({
     // 交互操作组件 必须通过调用API方式使用
     // wx.showActionSheet({
     //   // 显示出来的项目列表
-    //   itemList: ['传智播客', '黑马程序员', '博学谷在线', '酷丁鱼'],
+    //   itemList: ['张三', '李四', '王五', '赵柳'],
     //   // 点击其中任一项的回调
     //   success: function (res) {
     //     // res.cancel 指的是是否点击了取消
