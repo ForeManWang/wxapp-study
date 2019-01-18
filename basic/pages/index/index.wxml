@@ -4,8 +4,10 @@
   <!--success, success_no_circle, info, warn, waiting, cancel, download, search, clear-->
   <!--type 用于定义图标类型，只能是规定范围的类型，除了这些内置图标，其他图标必须通过图片方式使用-->
   <icon type="success_no_circle"></icon>
+
   <!-- size 用于指定图标大小 默认是23 单位是px -->
   <icon type="info" size="60"></icon>
+  
   <!-- color 用于指定图标颜色 取值就是CSS颜色取值 -->
   <icon type="info" size="60" color="red"></icon>
 
