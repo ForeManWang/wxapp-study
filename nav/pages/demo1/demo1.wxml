@@ -10,7 +10,7 @@
         2. 接受 onload 的第一个参数（对象）
 -->
 
-<navigator url="../demo2/demo2" redirect>跳转过去（不回来了）</navigator>
+<navigator url="../demo2/demo2" redirect>跳转（不回来了）</navigator>
 
 
 <navigator hover-class="my-hover">点我点我</navigator>
