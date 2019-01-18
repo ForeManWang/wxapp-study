@@ -13,15 +13,7 @@
           这里是内容。。。
         </text>
       </view>
-      <view class="content">
-        <text>
-          这里是内容。。。
-          这里是内容。。。
-          这里是内容。。。
-        </text>
-      </view>
     </block>-->
-
 
     <!-- hidden 标签任然会工作，只是不显示在界面上 -->
     <view class="content" hidden="{{ !show }}">
